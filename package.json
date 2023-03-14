@@ -1,6 +1,6 @@
 {
-  "name": "ts-transformer-keys",
-  "version": "0.4.4",
+  "name": "rbxts-transformer-keys",
+  "version": "0.5.0-rc.1",
   "description": "A TypeScript custom transformer which enables to obtain keys of given type.",
   "scripts": {
     "prepare": "tsc",
