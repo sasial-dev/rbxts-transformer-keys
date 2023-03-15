@@ -34,7 +34,7 @@ console.log(keysOfProps); // ['id', 'name', 'age']
   "compilerOptions": {
     // ...
     "plugins": [
-      { "transform": "rbxts-transformer-keys/transformer" }
+      { "transform": "rbxts-transformer-keys" }
     ]
   },
   // ...

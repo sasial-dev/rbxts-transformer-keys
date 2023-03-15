@@ -9,8 +9,7 @@
     "esModuleInterop": true
   },
   "include": [
-    "transformer.ts",
-    "test/compile/compile.ts"
+    "index.ts"
   ],
   "exclude": [
     "node_modules"

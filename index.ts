@@ -1,5 +1,5 @@
 import ts from 'typescript';
-import path from 'path';
+import path from 'node:path';
 
 const createArrayExpression = ts.factory ? ts.factory.createArrayLiteralExpression : ts.createArrayLiteral;
 const createStringLiteral = ts.factory ? ts.factory.createStringLiteral : ts.createLiteral;
