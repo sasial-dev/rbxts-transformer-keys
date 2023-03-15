@@ -61,7 +61,7 @@ function isKeysCallExpression(node: ts.Node, typeChecker: ts.TypeChecker): node 
     return false;
   }
   const declaration = typeChecker.getResolvedSignature(node)?.declaration;
-  if (!declaration || ts.isJSDocSignature(declaration) || declaration.name?.getText() !== 'keys') {
+  if (!declaration || ts.isJSDocSignature(declaration) || declaration.name?.getText() !== '$keys') {
     return false;
   }
   try {
